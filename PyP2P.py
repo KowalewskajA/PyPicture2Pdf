@@ -44,9 +44,9 @@ class PyP2P(QWidget):
             for name in self.file_names:
                 tmp = tmp + name + "\n"
             self.file_label.text = tmp
+
     @Slot()
     def convert_pictures(self):
-
         for name in self.file_names:
             image = Image.open(name)
             pdf = image.convert('RGB')
