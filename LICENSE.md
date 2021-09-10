@@ -1,0 +1,1 @@
+ This software is distributed under the [CC BY-NC](https://creativecommons.org/licenses/by-nc/4.0/legalcode).
